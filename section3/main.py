@@ -6,7 +6,7 @@ from PIL import Image
 st.title("Interactive Widgets")
 # チェックボックスによる画像の表示制御
 if st.checkbox("Show Image") :
-    img = Image.open('../src/sample.jpg')
+    img = Image.open('/src/sample.jpg')
     st.image(img, caption='NCS logo', use_container_width=True)
 
 # セレクトボックス

@@ -15,7 +15,6 @@ bar = st.progress(0)
 
 # プログレスバー更新処理
 for i in range(100):
-    # bar.progress(i)
     latest_interation.text(f'Iteration {i+1}')
     bar.progress(i + 1)
     time.sleep(0.1)
